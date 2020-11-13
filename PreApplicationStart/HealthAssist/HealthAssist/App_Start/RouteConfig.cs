@@ -1,4 +1,5 @@
-﻿using System;
+﻿using HealthAssist.Handler;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,7 @@ namespace HealthAssist
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
+            routes.Add(new Route("home/about", new SampleRouteHandler()));
             //routes.MapRoute(
             //    name: "Default",
             //    url: "{controller}/{action}/{id}",
@@ -21,6 +23,14 @@ namespace HealthAssist
                 new MvcRouteHandler());
             routes.Add(myRoute);
 
+        }
+    }
+
+    public class SampleRouteHandler : IRouteHandler
+    {
+        public IHttpHandler GetHttpHandler(RequestContext requestContext)
+        {
+            return new SampleHandler();
         }
     }
 }

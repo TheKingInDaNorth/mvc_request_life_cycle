@@ -27,14 +27,14 @@ namespace HealthModules
 
         private void LogEvent(object src, EventArgs args)
         {
-            if (HttpContext.Current.CurrentNotification == RequestNotification.LogRequest)
-            {
-                if ((MvcHandler)HttpContext.Current.Handler != null)
-                {
-                    Debug.WriteLine("This was logged!");
-                }
+            //if (HttpContext.Current.CurrentNotification == RequestNotification.LogRequest)
+            //{
+            //    if ((MvcHandler)HttpContext.Current.Handler != null)
+            //    {
+            //        Debug.WriteLine("This was logged!");
+            //    }
 
-            }
+            //}
         }
     }
 }

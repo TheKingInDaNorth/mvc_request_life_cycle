@@ -73,7 +73,6 @@ C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\H
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\bin\System.Web.WebPages.Razor.xml
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\bin\Antlr3.Runtime.pdb
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\bin\Newtonsoft.Json.xml
-C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.csprojAssemblyReference.cache
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.csproj.CoreCompileInputs.cache
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.csproj.CopyComplete
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.dll
