@@ -9,6 +9,11 @@ namespace HealthAssist.Controllers
 {
     public class HomeController : Controller
     {
+        //ILoggingService _logger;
+        //public HomeController(ILoggingService logger)
+        //{
+        //    _logger = logger;
+        //}
         public ActionResult Index()
         {
             return View();
