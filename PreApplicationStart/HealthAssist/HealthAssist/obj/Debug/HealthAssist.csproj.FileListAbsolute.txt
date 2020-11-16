@@ -77,3 +77,4 @@ C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\H
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.csproj.CopyComplete
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.dll
 C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.pdb
+C:\Users\tuan.vo\Desktop\git folder\mvc_request_life_cycle\PreApplicationStart\HealthAssist\HealthAssist\obj\Debug\HealthAssist.csprojAssemblyReference.cache

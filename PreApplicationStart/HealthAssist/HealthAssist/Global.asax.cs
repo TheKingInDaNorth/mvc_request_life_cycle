@@ -20,8 +20,18 @@ namespace HealthAssist
             HttpApplication.RegisterModule(typeof(LogModule));
         }
 
+        protected void Application_PreRequestHandlerExecute()
+        {
+            Debug.WriteLine("PreExecute");
+        }
+
+        protected void Application_PostRequestHandlerExecute()
+        {
+            Debug.WriteLine("PostExecute");
+        }
         protected void Application_Start()
         {
+            //ControllerBuilder.Current.SetControllerFactory(new ParameterControllerFactory());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
