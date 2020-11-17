@@ -1,4 +1,6 @@
-﻿using System;
+﻿using HealthAssist.Extensions;
+using HealthAssist.Models;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
@@ -16,7 +18,8 @@ namespace HealthAssist.Controllers
         //}
         public ActionResult Index()
         {
-            return View();
+            var person = new Person { FirstName = "Bob", LastName = "John", Age = 32 };
+            return JsonNet(person);
         }
 
         public ActionResult About()
@@ -31,6 +34,23 @@ namespace HealthAssist.Controllers
             ViewBag.Message = "Your contact page.";
 
             return View();
+        }
+
+        [IsMobile]
+        public JsonResult Register()
+        {
+            return Json("{ Message: Dispaly on Mobile Devices }");
+        }
+
+
+        public ActionResult Register(string name)
+        {
+            return View();
+        }
+
+        private ActionResult JsonNet(object data)
+        {
+            return new JsonNETResult() { Data = data };
         }
     }
 }

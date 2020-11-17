@@ -112,11 +112,14 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ILoggingService.cs" />
+    <Compile Include="Extensions\IsMobile.cs" />
+    <Compile Include="Extensions\JsonNETResult.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Handler\SampleHandler.cs" />
     <Compile Include="LogModule.cs" />
+    <Compile Include="Models\Person.cs" />
     <Compile Include="ParameterControllerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -161,7 +164,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
     <Folder Include="Views\Contact\" />
   </ItemGroup>
   <ItemGroup>
