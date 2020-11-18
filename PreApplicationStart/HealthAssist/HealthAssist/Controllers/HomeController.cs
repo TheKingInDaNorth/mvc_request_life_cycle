@@ -19,7 +19,8 @@ namespace HealthAssist.Controllers
         public ActionResult Index()
         {
             var person = new Person { FirstName = "Bob", LastName = "John", Age = 32 };
-            return JsonNet(person);
+            //return JsonNet(person);
+            return View();
         }
 
         public ActionResult About()
