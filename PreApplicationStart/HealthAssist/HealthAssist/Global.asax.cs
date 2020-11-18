@@ -1,4 +1,5 @@
 ﻿using HealthAssist;
+using HealthAssist.Extensions;
 using HealthModules;
 using System;
 using System.Collections.Generic;
@@ -36,6 +37,7 @@ namespace HealthAssist
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            ViewEngines.Engines.Insert(0,new ThemeViewEngine());
         }
 
         protected void Application_End()
